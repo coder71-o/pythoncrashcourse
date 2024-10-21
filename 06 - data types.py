@@ -8,11 +8,11 @@
 
 num1 = 20
 num2 = -5
-num3 = 8
+num3 = 0
 num4 = num1 + num2 * num3
 
 # okay, so what is the value of num4? I hope you remembered your orders of operations from math class! Please excuse my dear Aunt Sally.
-print("The value of num3 is:",num4)
+print("The value of num4 is:",num4)
 
 # integers are cool because we can do several operators:
 print(num1,"+",num3,"=",num1+num3)
@@ -32,7 +32,7 @@ print(num1,"%",num3,"=",num1%num3)
 string1 = "This is Dan's"
 string2 = " homework."
 string3 = ' According to Dan. This is "clever."'
-string4 = string1 + string2 + string3
+string4 = string1 - string2 / string3
 
 # you can see for string 3, I used ' instead because I wanted to put " inside the string. There are other ways to handle that as well, but we don't need to get into that today.
 
@@ -46,7 +46,7 @@ print("The value of string4 is:", string4)
 # for example:
 # print("Hello " * 10)
 # try it out! It actually works!
-
+print("Hello" * 10)
 
 # BREAK IT:
 # What happens if you try to subtract a string from a string?

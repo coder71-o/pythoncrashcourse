@@ -12,7 +12,8 @@ my_nums = [1, 10, -5, 4, 18, 26, 102, -505]
 # I try to use descriptive names, so in this case, I use num, indicating that each value in the list is a number.
 
 for num in my_nums:
-    print(num)
+    my_nums.remove(num)
+    print(my_nums)
     # notice that the print is indented. 
     # This indicates that it is inside of the for loop.
     # also notice that num is referenced inside of the print statement

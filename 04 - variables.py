@@ -4,8 +4,9 @@
 
 x = "Hello"
 y = "World"
+1 = y
 
-print(x,y)
+print(x,y,1)
 
 # as you can see the x and y are the variable names, neither of which are surrounded by parenthesis. However, the value on the right does have parenthesis.
 
